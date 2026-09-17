@@ -17,7 +17,7 @@ const io = new Server(server, {
   },
 });
 
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 const QUESTION_TIME = 15;
 
 const questionBank = [
